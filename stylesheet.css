@@ -6,14 +6,16 @@
   list-style-type: none;
 }
 
-header > div {
+header .top-nav {
   padding: 0 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid lightgray;
 }
-
+.top-nav img {
+    width: 20px;
+}
 
 nav {
   width: 600px;
@@ -30,7 +32,10 @@ nav a {
   text-decoration: none;
   color: black;
 }
-
+.top-nav ul{
+    display: flex;
+    align-items: center;
+}
 .blackHeart {
   width: 20px;
   margin-right: 1rem;
@@ -42,8 +47,6 @@ nav a {
 
 form * {
   font-size: 18px;
-  label-color: rgba(0,0,0,.05);
-  input-color: rgba(0,0,0,.05);
 }
 
 .button {
