@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.linklogin {
+   link-color: black;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.search {
+  
+}
+
+form * {
+  font-size: 18px;
+  label-color: rgba(0,0,0,.05);
+  input-color: rgba(0,0,0,.05);
+}
+
+.button {
+  background-color: #fb3e44;
+  color: white;
+}
+
+body {
+  font-family: 'Poppins';
+}
+
+
+#content .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: rgba(232,217,217,.3);
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  padding: 40px auto;
+  Margin: 0 auto;
+}
+
+#middle-section .h1-section3 {
+  background-color: rgba(255,204,53,.4);
+  width: 40%;
+  text-align: center;
+  font-style: italic;
+}
+#middle-section .article *{
+font-style: normal;
+}
+
+#middle-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#middle-section img {
+  width: 250px;
+  height: 180px;
+  transform: skew(9deg,0deg);
+}
+
+.button1 {
+  color: white;
+  background-color: #FB3B49;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+}
+
+.linkjoin {
+  link-color: black;
+  text-decoration: none;
+  list-style-type: none;
+}
+.footer-headings {
+  color: red;
+  font-size: 2em;
+  font-style: normal;
+  text-decoration: none;
+}
+.footer-text {
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+  margin: 20px;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.link-btn {
+  background-color: rgb(67, 163, 230);
+  color: white;
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 10px 30px;
+}
+
+#footer > div {
+  display: flex;
+ justify-content: space-between;
+ flex-direction: row;
+flex-wrap: wrap;
+}
+#footer article{
+  width: 40%;
+}
+
+.service-box {
+  font-size: 1.7em;
+  font-style: normal;
+  text-align: center;
+  width: 125 px;
+}
+.service-box {
+  background-color: white;
+  color: black;
+  border: 2px solid;
+  border-color: red;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: none;
+  margin: 30px 5% 0 5%;
+  padding: 20px;
+  width: 20%;
+}
